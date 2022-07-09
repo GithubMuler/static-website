@@ -1,0 +1,141 @@
+
+/*Tag selector*/
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+body{
+    margin: 0;
+    text-align:left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+hr{
+    background-color: red;
+    border-style: dotted none none;
+}
+/* Style the header */
+header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  
+  }
+  .imm{
+    background-color: gold;
+  }
+   /* Clear floats after the columns */
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+   /* Create two columns/boxes that floats next to each other */
+nav {
+    float: left;
+    width: 20%;
+    height: 320px; /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 20px;
+   
+  }
+  article {
+    float: left;
+    padding: 20px;
+    width: 60%;
+    background-color: #f1f1f1;
+    height: 320px; /* only for demonstration, should be removed */
+  }
+  Right{
+    float: right;
+    width: 20%;
+    height: 320px;
+    background: #ccc;
+  }
+  
+  /* Style the list inside the menu */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+/* Style the footer */
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  
+  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }}
+
+
+h2{
+    
+    text-shadow: #aaf3f3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: auto;
+    color:blue;
+}
+img:hover{
+    background-color: greenyellow;
+margin-left: 0%;
+
+}
+img{
+    background-color: rgb(143, 168, 201);
+}
+       /* class selector*/
+
+
+       /*id selector*/
+       #heading{
+        color: rgb(255, 0, 71);
+        border: red;
+        border-color: blue;
+        font-size: 70px;
+
+       }
+       #bb{
+        background-color: goldenrod;
+       }
+       #paragraph{
+        line-height: 2;
+font-family: 'Times New Roman', Times, serif;        font-size: large;
+        color: black;
+       }
+
+
+
+       a:link {
+        color: green;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a:visited {
+        color: blueviolet;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a:hover {
+        color: red;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      a:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline;
+      }
