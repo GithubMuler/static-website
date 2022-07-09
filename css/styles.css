@@ -6,9 +6,6 @@
     box-sizing: border-box;
   }
   
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-  }
 body{
     margin: 0;
     text-align:left;
@@ -97,17 +94,40 @@ margin-left: 0%;
 img{
     background-color: rgb(143, 168, 201);
 }
-       /* class selector*/
+       /* .class selector*/
+.class-div{
+  background-color: white;
+  height: fit-content;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-right: 2%;
+  padding: 2%;
 
+ 
+  
+}
 
-       /*id selector*/
+       /*#id selector*/
        #heading{
         color: rgb(255, 0, 71);
         border: red;
         border-color: blue;
         font-size: 70px;
-
        }
+
+      
+       .div5_2{
+        padding: 3%;
+        display: inline-block;
+        position: relative;
+       }
+
+       #divv{
+        background-color:rgb(255, 0, 71);;
+        text-align:left;
+       }
+      
        #bb{
         background-color: goldenrod;
        }
@@ -125,7 +145,7 @@ font-family: 'Times New Roman', Times, serif;        font-size: large;
         text-decoration: none;
       }
       a:visited {
-        color: blueviolet;
+        color: royalblue;
         background-color: transparent;
         text-decoration: none;
       }
