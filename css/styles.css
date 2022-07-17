@@ -2,6 +2,8 @@
 /*Tag selector*/
 
 
+
+
 * {
     box-sizing: border-box;
   }
@@ -11,22 +13,29 @@ body{
     text-align:left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-hr{
-    background-color: red;
-    border-style: dotted none none;
-}
-/* Style the header */
-header {
-    background-color: #666;
-    padding: 30px;
-    text-align: center;
-    font-size: 35px;
-    color: white;
+
+
+   
   
-  }
-  .imm{
-    background-color: gold;
-  }
+h1{
+  color: #6495ED;
+  font-size: 55px;
+  padding: 20px;
+  box-sizing: border-box;
+  
+  
+  
+  
+}
+
+      img:hover{
+        background-color:#f38d0980;
+        box-shadow: 0 0 7px 7px green
+      
+      }
+
+   
+
    /* Clear floats after the columns */
 section::after {
     content: "";
@@ -41,6 +50,7 @@ nav {
     height: 320px; /* only for demonstration, should be removed */
     background: #ccc;
     padding: 20px;
+	box-sizing: border-box;
    
   }
   article {
@@ -49,12 +59,15 @@ nav {
     width: 60%;
     background-color: #f1f1f1;
     height: 320px; /* only for demonstration, should be removed */
+	box-sizing: border-box;
   }
-  Right{
-    float: right;
+  right{
+	  float: right;
+    padding: 20px;
     width: 20%;
-    height: 320px;
-    background: #ccc;
+    background-color: #ccc;
+    height: 320px; /* only for demonstration, should be removed */
+	box-sizing: border-box;
   }
   
   /* Style the list inside the menu */
@@ -63,12 +76,7 @@ nav {
     padding: 0;
   }
 /* Style the footer */
-footer {
-    background-color: #777;
-    padding: 10px;
-    text-align: center;
-    color: white;
-  }
+
   
   
   /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
@@ -83,18 +91,30 @@ h2{
     
     text-shadow: #aaf3f3;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: auto;
     color:blue;
 }
-img:hover{
-    background-color: greenyellow;
-margin-left: 0%;
 
-}
-img{
-    background-color: rgb(143, 168, 201);
-}
-       /* .class selector*/
+  /* .class selector*/
+     .div1 {
+    background-color: #666;
+    padding: 5px;
+    width: 100;
+    height: 214px;
+	box-sizing: border-box;
+  }
+  .div111{
+  width:200px;
+  float:left;
+  margin-right:30px;
+  border-radius: 8px;
+        border: 7px solid #0bc8eef6;
+        padding: 30px;
+        background-color: rgb(125, 0, 71);
+        margin: 7;
+		box-sizing: border-box;
+  }
+      
+     
 .class-div{
   background-color: white;
   height: fit-content;
@@ -102,43 +122,27 @@ img{
   margin-top: 2%;
   margin-bottom: 2%;
   margin-right: 2%;
-  padding: 2%;
-
- 
-  
+  padding: 2%; 
+  box-sizing: border-box;
 }
+.div5_2{
+  padding: 3%;
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+ }
 
        /*#id selector*/
-       #heading{
-        color: rgb(255, 0, 71);
-        border: red;
-        border-color: blue;
-        font-size: 70px;
-       }
-
+     
+     
       
-       .div5_2{
-        padding: 3%;
-        display: inline-block;
-        position: relative;
-       }
 
        #divv{
-        background-color:rgb(255, 0, 71);;
+        background-color:rgb(255, 0, 71);
         text-align:left;
        }
       
-       #bb{
-        background-color: goldenrod;
-       }
-       #paragraph{
-        line-height: 2;
-font-family: 'Times New Roman', Times, serif;        font-size: large;
-        color: black;
-       }
-
-
-
+     
        a:link {
         color: green;
         background-color: transparent;
@@ -159,3 +163,40 @@ font-family: 'Times New Roman', Times, serif;        font-size: large;
         background-color: transparent;
         text-decoration: underline;
       }
+	  footer {
+    background-color: rgb(255, 0, 71);
+    padding: 1px;
+    text-align: center;
+    color: #FFBF00;
+	box-sizing: border-box;
+  }
+  input[type="text"],
+input[type="email"],
+input[type="textarea"],{
+    width: auto;
+
+    
+    display: inline-block;
+    border: none;
+    background:#ccc;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+ {
+    background-color: #ddd;
+    outline:none;
+}
+.tt{
+    background-color: teal;
+    color: white;
+  
+    border: none;
+    cursor: pointer;
+    width: auto;
+    margin: auto;
+    opacity: 0.8;
+}
+.tt:hover{
+opacity: 1;
+
+}
